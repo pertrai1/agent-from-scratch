@@ -10,7 +10,7 @@ if (!userMessage) {
 }
 
 const weatherTool = {
-  name: 'get_weather',
+  name: 'weather',
   description: 'Weather Tool that is user-location',
   parameters: z.object({
     reasoning: z.string().describe('Why did you choose this tool?'),
